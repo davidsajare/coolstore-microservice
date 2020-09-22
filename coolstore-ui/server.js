@@ -17,6 +17,8 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 // Enable CORS support
 app.use(cors());
+app.options('*', cors());
+
 
 
 // error handling
