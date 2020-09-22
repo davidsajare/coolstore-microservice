@@ -7,11 +7,10 @@
     "name": "refactor",
     "private": true,
         "dependencies": {
-        "angular-patternfly": "3.17.0",
         "bootstrap-switch": "3.3.2",
         "jquery": "~1.11.1",
         "raphael": "1.3.x",
-        "font-awesome": "~4.6.3",
+        "font-awesome": "~4.3.0",
         "foundation": "x"
     },
     "resolutions": {
