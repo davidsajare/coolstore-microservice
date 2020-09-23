@@ -56,9 +56,8 @@ objects:
         - name: BOWER_MIRROR
           value: ${BOWER_MIRROR}
         from:
-          kind: ImageStreamTag
-          name: nodejs:4
-          namespace: ${IMAGE_STREAM_NAMESPACE}
+          kind: DockerImage
+          name: registry.redhat.io/rhscl/nodejs-4-rhel7:latest
       type: Source
     triggers:
     - imageChange: {}
